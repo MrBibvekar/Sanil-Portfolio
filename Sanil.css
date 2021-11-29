@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+}
+.big-wrapper{
+    overflow-x: hidden;
+}    
+
+header{
+    width: 100%;
+    padding-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+
+.logo{
+    margin-top: -2.5%;
+    width: 8rem;
+}
+.avatar{
+    width: 12rem;
+}
+.title{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: ubuntu;
+    color: black;
+}
+.talk{
+    font-size: 1rem;
+    width: 10%;
+    border-radius: 1rem;
+    color: black;
+    border: 4px solid darkred;
+    padding: 0.5rem;
+    height: 3rem;
+    font-weight: bold;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 18% 38%;
+    padding-top: 2rem;
+}
+.new ,.believe{
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+.subtext{
+    word-spacing: 1px;
+    font-size: 1.4rem;
+    font-family: ubuntu;
+    font-weight: 300;
+
+}
+.subtext-title{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.computer{
+    padding-top: 4rem;
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blue{
+    width: auto;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2rem;
+    word-spacing: 2px;
+    padding: 5rem;
+    padding-bottom: 30%;
+    justify-content: center;
+    /*background-image: linear-gradient(to right , hsl(232, 72%, 62%) , hsl(232, 67%, 49%));*/
+     background-color: #FFCC1D; 
+    font-size: 1.7rem;
+    color: #0B4619;
+}
+.intro{
+    font-family: ubuntu;
+    font-weight: 400;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.information{
+    margin-top: -25%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 19% 65%;
+    /* background-image: linear-gradient(to right , hsl(232, 72%, 62%) , hsl(232, 67%, 49%)); */
+    width: 100%;
+}
+.capabilities{
+    margin-left: 21%;
+    font-size: 2.5rem;
+    color: white;
+    font-family: ubuntu;
+    font-weight: 800;
+}
+.skills{
+    border-bottom: 0px solid #E6ECF8;
+    border-right: 1px solid #E6ECF8;
+    font-family: ubuntu;
+    border-radius: 5% 5% 0 0;
+    margin-left: 20%;
+    font-size: 1.7rem;
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+    color: black;
+
+}
+.fa-laptop-code{
+    width: 70%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-bottom: 4px dashed grey;
+    font-size: 7rem;
+    color:goldenrod;
+}
+.info-title{
+    color: black;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 6%;
+}
+.info-subtitle{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 19%;
+    width: 60%;
+    margin-top: 0;
+    line-height: 2.0rem;
+    color:rgb(43, 40, 40);
+    margin-bottom: 10%;
+}
+.languages{
+    margin-bottom: 0;
+    color: goldenrod;
+    font-size: 1.7rem;
+}
+.lang-info{
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    color:rgb(43, 40, 40);
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+.icon{
+    margin-left: -34%;
+    padding: 4%;
+    width: 85%;
+    margin-right: 25%;
+}
+.flex{
+    display: flex;
+    margin-top: 115%;
+}
+.js{
+    margin-left: 11%;
+}
+.icon-wrapper{
+    padding-right: 5%;
+}
+.white-logo{
+    width: 15%;
+
+}
+.credit-title{
+    opacity: 0.7;
+    font-weight: 100;
+    width: 25%;
+    margin-top: -3%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    margin: 2%;
+    color: white;
+}
+.fab{
+    width: 4%;
+    line-height: 2 !important;
+    font-size: 90%;
+    color: white;
+    border-radius: 100%;
+    margin: 0 .2rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+
+}
+.handmade{
+    word-spacing: normal;
+    margin-top: 5%;
+    width: 50% !important;
+    font-size: 1.2rem;
+}
+.credits{
+    padding: 2rem;
+    height: auto;
+}
+.yedhu{
+    margin-top: 0.2%;
+    font-size: 1rem;
+}
+@media only screen and (max-width:1400px) {
+    .avatar {
+        width: 12rem;
+        margin-left: -16%;
+    }
+    .talk{
+        width: 18%;
+    }
+    .capabilities{
+        font-size: 1.9rem;
+        margin-top:19%;
+    }
+  }
+@media screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .avatar{
+        margin-left: 0;
+    }
+    .wrapper,.grid,.main{
+        padding: 2%;
+        text-align: center;
+        display: block;
+    }
+    .title , .capabilities, .flex,.skills, .lang-info{
+        padding: 0;
+        margin: auto;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .information{
+        display: block;
+    }
+    .icon{
+        display: none;
+    }
+    .skills{
+        margin: 0;
+        font-size: 1rem;
+    }
+   .blue{
+       padding: 10%;
+   } 
+   .intro{
+        margin: auto;
+        width: 100%;
+        padding-bottom: 20%;
+        font-size: 1.1rem;
+        line-height: 1.2;
+    }
+    .subtext-title{
+        font-size: 1.4rem;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .new,.believe{
+        font-size: 1rem;
+    }
+    .info-pic{
+        font-size: 5rem;
+        padding-bottom: 20px;
+    }
+    .info-title{
+        font-size: 1.6rem;
+    }
+    .info{
+        font-size: 1.3rem;
+    }
+    .info-small{
+        line-height: 1.2;
+        font-size: 1.1rem;
+    }
+    .lang-info{
+        margin-bottom: 40px;
+    }
+    .capable{
+        font-weight: 400;
+        font-size: 1.4rem;
+        width: 70%;
+    }
+    .computer{
+        width: 70%;
+    }
+    .white-logo{
+        width: 70%;
+    }
+    .credit-title{
+        font-size: 1.2rem;
+        width: 70%;
+    }
+    .fab{
+        width: 12%;
+    }
+    .handmade{
+        font-size: 1rem;
+        width: 70% !important;
+    }
+    .yedhu{
+        font-size: rem;
+        width: 70% !important;
+    }
+    .big-wrapper{
+        overflow-x: hidden;
+    }
+    header{
+        padding-top: 20px;
+    }
+    .logo{
+        width: 28%;
+        margin-top:-10%;
+    } 
+    .talk{
+        padding: 0;
+        height: 2rem;
+        width: 30%;
+        font-size: 0.8rem;
+    } 
+  }
+  
